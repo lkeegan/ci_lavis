@@ -9,6 +9,4 @@ jobs:
     steps:
       - run: |
           brew install mesa mesa-glu
-
-      - run: |
-          glxinfo
+          brew info
